@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>477</width>
+    <height>286</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 200, 255);</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <widget class="QLabel" name="label_dangCapNhat">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>2</y>
+     <width>439</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(66, 66, 66);
+font: 75 bold 16pt &quot;Ubuntu&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ĐANG CẬP NHẤT CƠ SỞ DỮ LIỆU</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_showInformation">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>42</y>
+     <width>461</width>
+     <height>193</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+border-width:0px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_daXuLy">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>4</y>
+      <width>367</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 bold 11pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Đã cập nhật x/x thí sinh</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_loi">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>34</y>
+      <width>367</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 bold 11pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Lỗi x thí sinh</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>240</y>
+     <width>143</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:4px</string>
+   </property>
+   <property name="text">
+    <string>Hủy câp nhật</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

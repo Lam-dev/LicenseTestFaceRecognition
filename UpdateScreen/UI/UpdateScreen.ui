@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FrameContainUpdateScreen</class>
+ <widget class="QFrame" name="FrameContainUpdateScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>423</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 235);</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>545</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(65, 65, 65);</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>4</y>
+     <width>85</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../icon/iconStudentUpdate.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>12</y>
+     <width>549</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(59, 59, 59);
+font: 75 bold 20pt &quot;Ubuntu&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CẬP NHẬT DANH SÁCH HỌC VIÊN</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_containCourseInfo">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>88</y>
+     <width>303</width>
+     <height>169</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 225, 225);
+border-style:solid;
+border-radius:7px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>6</y>
+      <width>251</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 124);</string>
+    </property>
+    <property name="text">
+     <string>THÔNG TIN KHÓA HỌC</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>2</x>
+      <y>40</y>
+      <width>297</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-width:1px;
+border-color:rgb(180, 180, 180)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>42</y>
+       <width>297</width>
+       <height>1</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-width:0px;
+background-color: rgb(180, 180, 180)</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>82</y>
+       <width>297</width>
+       <height>1</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-width:0px;
+background-color: rgb(180, 180, 180)</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>6</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-width:0px</string>
+     </property>
+     <property name="text">
+      <string>Ngày</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_forShowDataTime">
+     <property name="geometry">
+      <rect>
+       <x>122</x>
+       <y>6</y>
+       <width>163</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-width:0px</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>86</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-width:0px</string>
+     </property>
+     <property name="text">
+      <string>Số học viên</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_forShowNumberStudent">
+     <property name="geometry">
+      <rect>
+       <x>122</x>
+       <y>86</y>
+       <width>163</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-width:0px</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_forShowCourseName">
+     <property name="geometry">
+      <rect>
+       <x>122</x>
+       <y>48</y>
+       <width>163</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-width:0px</string>
+     </property>
+     <property name="text">
+      <string>Tên Khóa hoc</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>48</y>
+       <width>93</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-style:solid;
+border-width:0px</string>
+     </property>
+     <property name="text">
+      <string>Tên khóa</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>262</y>
+     <width>303</width>
+     <height>155</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 225, 225);
+border-style:solid;
+border-radius:7px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>8</y>
+      <width>93</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 124);</string>
+    </property>
+    <property name="text">
+     <string>ĐÃ XONG</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_forShowNumberUpdated">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>6</y>
+      <width>187</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(61, 61, 61);
+font: 57 bold 14pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0/0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_cancerUpdate">
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>106</y>
+      <width>131</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(221, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>HỦY CẬP NHÂT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>48</y>
+      <width>93</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 124);</string>
+    </property>
+    <property name="text">
+     <string>LỖI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_forShowNumberError">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>42</y>
+      <width>185</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(61, 61, 61);
+font: 57 bold 14pt &quot;Ubuntu&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_4">
+   <property name="geometry">
+    <rect>
+     <x>316</x>
+     <y>88</y>
+     <width>337</width>
+     <height>329</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(225, 225, 225);
+border-style:solid;
+border-radius:7px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
